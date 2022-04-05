@@ -1,0 +1,23 @@
+package mukemmelSayiBulma;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Mükemmel sayý olup olmadýðýný merak ettiðiniz sayýyý giriniz: ");
+		int num=scanner.nextInt(),kontrol=0;
+		for(int i=1;i<num;i++) {
+			if(num%i==0) {
+				kontrol+=i;
+				
+			}
+			
+		}
+		if(kontrol==num) {
+			System.out.println(num+" sayýsý mükemmel bir sayýdýr");
+		}else System.out.println(num+" sayýsý mükemmel sayý deðildir");
+	}
+
+}

@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner scanner=new Scanner(System.in);
-		System.out.println("Mükemmel sayı olup olmadığını merak ettiğiniz sayıyı giriniz: ");
+		System.out.println("MÃ¼kemmel sayÄ± olup olmadÄ±ÄŸÄ±nÄ± merak ettiÄŸiniz sayÄ±yÄ± giriniz: ");
 		int num=scanner.nextInt(),kontrol=0;
 		for(int i=1;i<num;i++) {
 			if(num%i==0) {
@@ -16,8 +16,8 @@ public class Main {
 			
 		}
 		if(kontrol==num) {
-			System.out.println(num+" sayısı mükemmel bir sayıdır");
-		}else System.out.println(num+" sayısı mükemmel sayı değildir");
+			System.out.println(num+" sayÄ±sÄ± mÃ¼kemmel bir sayÄ±dÄ±r");
+		}else System.out.println(num+" sayÄ±sÄ± mÃ¼kemmel sayÃ½ deÄŸildir");
 	}
 
 }
